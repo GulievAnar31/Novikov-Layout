@@ -84,7 +84,7 @@ header {
   font-family: 'Gilroy-Bold';
   font-size: 34px;
   line-height: 42px;
-  padding-top: 120px;
+  padding-top: 40px;
   text-align: center;
   color: #070707;
 }
@@ -109,6 +109,7 @@ header {
   color: #070707;
 }
 
-.aboutMeText span {
-  padding-bottom: 200px;
+.aboutMeText {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
