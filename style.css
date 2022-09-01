@@ -1,0 +1,114 @@
+main {
+  width: 1445px;
+  height: 4759px;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.content {
+  width: 100%;
+}
+
+nav {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 50rem;
+  height: 67px;
+  padding-top: 32px;
+  padding-left: 5em;
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  text-decoration: none;
+  color: #070707;
+}
+
+header {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  width: 800px;
+  height: 150px;
+  margin-top: 39px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  width: 118px;
+  font-size: 47.3392px;
+  font-weight: bold;
+  line-height: 59px;
+  color: #070707;
+}
+
+.info {
+  width: 130px;
+  margin: auto;
+  margin-top: 39px;
+  font-family: 'Gilroy-Medium';
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.language {
+  writing-mode: vertical-rl;
+}
+
+.image {
+  margin-left: 18%;
+}
+
+.image img {
+  width: 80%;
+  height: 80%;
+}
+
+.aboutMe {
+  width: 1445px;
+  height: 506px;
+  background: #F6F6F6;
+}
+
+.aboutMe h2 {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  padding-top: 120px;
+  text-align: center;
+  color: #070707;
+}
+
+.aboutMe span {
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 100px;
+}
+
+.aboutMeText {
+  margin-left: auto;
+  margin-right: auto;
+  width: 485.34px;
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.aboutMeText span {
+  padding-bottom: 200px;
+}
