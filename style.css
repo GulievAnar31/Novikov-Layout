@@ -113,3 +113,49 @@ header {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
 }
+
+.skills {
+  width: 1445px;
+  height: 506px;
+}
+
+.description {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description h2 {
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  padding-top: 40px;
+  text-align: center;
+  color: #070707;
+}
+
+.description p {
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.skills-blocks {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 83px;
+}
+
+.skills-blocks svg {
+  position: relative;
+  left: 50%;
+}
+
+.skills-blocks div {
+  text-align: center;
+  width: 20%;
+}
